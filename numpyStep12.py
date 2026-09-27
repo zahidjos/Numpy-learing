@@ -1,0 +1,12 @@
+import numpy as np
+data=np.array([10,20,30,40,50])
+print(np.sqrt(data))
+print(np.square(data))
+folatData=np.array([5.3455, 8.4546, 9.3546, 10.4567])
+print(np.round(folatData,2))
+print(np.ceil(folatData))
+print(np.floor(folatData))
+absoluteData=np.array([-1,2,-3,5,6,8])
+print(np.absolute(absoluteData))
+result=np.where(data>=20, 'pass', 'fail')
+print(result)
